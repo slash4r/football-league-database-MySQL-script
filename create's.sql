@@ -42,9 +42,12 @@ CREATE TABLE Seasons (
     name VARCHAR(255) NOT NULL
 );
 
+# ALTER TABLE matches DROP FOREIGN KEY matches_ibfk_3;
+# ALTER TABLE match_days MODIFY COLUMN id INT AUTO_INCREMENT;
+# ALTER TABLE matches ADD CONSTRAINT matches_ibfk_3 FOREIGN KEY (match_day_id) REFERENCES match_days (id);
 
 CREATE TABLE Match_days (
-    id INT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     season_id INT NOT NULL,
     league_id INT NOT NULL,
     day_number INT NOT NULL CHECK (day_number > 0),

@@ -1,4 +1,5 @@
 # Populate Leagues table
+# x8
 leagues_data = [
     ("Premier League", 20, "England"),
     ("La Liga", 20, "Spain"),
@@ -11,6 +12,7 @@ leagues_data = [
     # Add more leagues as needed
 ]
 
+# x32
 teams_data = [
     # Premier League teams
     ("Manchester City", "Manchester", "Etihad Stadium", "Pep Guardiola", 1),
@@ -69,6 +71,7 @@ teams_data = [
     # Add more Ukrainian Premier League teams as needed
 ]
 
+# x32 and x5 players in each team = 160x
 players_data = [
     # Premier League players
     # Manchester City
@@ -370,4 +373,11 @@ players_data = [
         ("Vitaliy Mykolenko", "1999-05-29", "Ukrainian", "Defender", 16),
         ("Oleksandr Tkachenko", "1997-04-04", "Ukrainian", "Goalkeeper", 1)
     ]
+]
+
+seasons = [
+    "2023-2024",
+    "2022-2023",
+    "2021-2022",
+    "2020-2021"
 ]
