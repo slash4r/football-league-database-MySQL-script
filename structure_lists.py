@@ -7,7 +7,7 @@ leagues_data = [
     ("Ligue 1", 20, "France"),
     ("Primeira Liga", 18, "Portugal"),
     ("Eredivisie", 18, "Netherlands"),
-    ("Ukrainian Premier League", 16, "Ukraine "),
+    ("Ukrainian Premier League", 16, "Ukraine"),
     # Add more leagues as needed
 ]
 
@@ -346,7 +346,7 @@ players_data = [
     # Dynamo Kyiv
     [
         ("Viktor Tsyhankov", "1997-11-15", "Ukrainian", "Midfielder", 15),
-        ("Artem Besedin", "1996-11-31", "Ukrainian", "Forward", 9),
+        ("Artem Besedin", "1996-03-31", "Ukrainian", "Forward", 9),
         ("Oleksandr Karavayev", "1992-06-01", "Ukrainian", "Defender", 94),
         ("Heorhiy Bushchan", "1994-06-04", "Ukrainian", "Goalkeeper", 1),
         ("Mykola Shaparenko", "1998-10-04", "Ukrainian", "Midfielder", 10)
