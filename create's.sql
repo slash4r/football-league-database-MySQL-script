@@ -57,8 +57,8 @@ CREATE TABLE Match_days (
 );
 
 CREATE TABLE Matches (
-    id INT PRIMARY KEY,
-    date_time DATETIME NOT NULL,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date_time DATETIME,
     venue VARCHAR(255) NOT NULL,
     home_team_id INT,
     away_team_id INT,
